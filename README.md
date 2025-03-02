@@ -38,9 +38,9 @@
 
 1. Create a theme folder in superfile's [configuration directory](https://superfile.netlify.app/configure/config-file-path/#config) by running:
 
-   ```bash
-   mkdir -p "<dir>/theme"
-   ```
+```bash
+mkdir -p "<dir>/theme"
+```
 
 1. Download your preferred theme from the [themes](themes/) directory, and save it to superfile's theme directory.
 
