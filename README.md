@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/yorukot/superfile">Bat</a>
+	Catppuccin for <a href="https://github.com/yorukot/superfile">Superfile</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
@@ -42,15 +42,9 @@
    mkdir -p "<dir>/theme"
    ```
 
-1. Choose your flavour and optionally an accent color. Replace <flavour> with your desired flavour and <accent> with accent color. Then, copy the theme file from this repository:
+1. Download your preferred theme from the [themes](themes/) directory, and save it to superfile's theme directory.
 
-   ```bash
-   wget -P "<dir>/theme" https://github.com/MuntasirSZN/superfile/raw/main/themes/<flavour>/catppuccin-<flavour>-<accent>.toml
-   ```
-
-## Usage
-
-Edit your configuration file, located at `spf pl` (see the configuration directory path, usually `~/.config/superfile/config.toml`):
+1. Edit your configuration file, located at `spf pl` (see the configuration directory path, usually `~/.config/superfile/config.toml`):
 
 ```toml
 theme="catppuccin-<flavour>-<accent>"
@@ -60,7 +54,7 @@ theme="catppuccin-<flavour>-<accent>"
 
 - [MuntasirSZN](https://github.com/MuntasirSZN)
 
-&#160;
+&nbsp;
 
 <p align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
