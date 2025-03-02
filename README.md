@@ -42,7 +42,7 @@
 mkdir -p "<dir>/theme"
 ```
 
-1. Download your preferred theme from the [themes](themes/) directory, and save it to superfile's theme directory.
+1. Download your preferred flavour from the [themes](themes/) directory, and save it to superfile's theme directory.
 
 1. Edit your configuration file, located at `spf pl` (see the configuration directory path, usually `~/.config/superfile/config.toml`):
 
