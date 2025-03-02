@@ -42,19 +42,19 @@
 mkdir -p "<dir>/theme"
 ```
 
-1. Download your preferred flavour from the [themes](themes/) directory, and save it to superfile's theme directory.
+1. Download your preferred flavour from the [themes](./themes/) directory, and save it to superfile's theme directory.
 
 1. Edit your configuration file, located at `spf pl` (see the configuration directory path, usually `~/.config/superfile/config.toml`):
 
 ```toml
-theme="catppuccin-<flavour>-<accent>"
+theme="catppuccin-<flavour>"
 ```
 
 ## 💝 Thanks to
 
 - [MuntasirSZN](https://github.com/MuntasirSZN)
 
-&nbsp;
+&#160;
 
 <p align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
