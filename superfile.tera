@@ -1,0 +1,50 @@
+---
+whiskers:
+  version: "^2.5.1"
+  matrix:
+    - flavor
+    - accent
+    - variant: ["base", "accent"]
+  filename: "themes/{{flavor.identifier}}/{% if variant == 'accent' %}catppuccin-{{flavor.identifier}}-{{accent}}.toml{% else %}catppuccin-{{flavor.identifier}}.toml{% endif %}"
+---
+# Catppuccin {{flavor.name}}{% if variant == 'accent' %} {{accent|capitalize}}{% endif %}
+
+code_syntax_highlight = "catppuccin-{{flavor.identifier}}"
+
+file_panel_border = "#{{flavor.colors.overlay0.hex}}"
+sidebar_border = "#{{flavor.colors.base.hex}}"
+footer_border = "#{{flavor.colors.overlay0.hex}}"
+file_panel_border_active = "#{{flavor.colors.lavender.hex}}"
+sidebar_border_active = "#{% if variant == 'accent' %}{{flavor.colors[accent].hex}}{% else %}{{flavor.colors.lavender.hex}}{% endif %}"
+footer_border_active = "#{{flavor.colors.green.hex}}"
+modal_border_active = "#{{flavor.colors.overlay0.hex}}"
+full_screen_bg = "#{{flavor.colors.base.hex}}"
+file_panel_bg = "#{{flavor.colors.base.hex}}"
+sidebar_bg = "#{{flavor.colors.base.hex}}"
+footer_bg = "#{{flavor.colors.base.hex}}"
+modal_bg = "#{{flavor.colors.base.hex}}"
+full_screen_fg = "#{{flavor.colors.subtext0.hex}}"
+file_panel_fg = "#{{flavor.colors.subtext0.hex}}"
+sidebar_fg = "#{{flavor.colors.subtext0.hex}}"
+footer_fg = "#{{flavor.colors.subtext0.hex}}"
+modal_fg = "#{{flavor.colors.subtext0.hex}}"
+cursor = "#{{flavor.colors.rosewater.hex}}"
+correct = "#{{flavor.colors.green.hex}}"
+error = "#{{flavor.colors.red.hex}}"
+hint = "#{{flavor.colors.sky.hex}}"
+cancel = "#{{flavor.colors.pink.hex}}"
+gradient_color = ["#{{flavor.colors.blue.hex}}", "#{{flavor.colors.mauve.hex}}"]
+file_panel_top_directory_icon = "#{{flavor.colors.green.hex}}"
+file_panel_top_path = "#{{flavor.colors.blue.hex}}"
+file_panel_item_selected_fg = "#{% if variant == 'accent' %}{{flavor.colors[accent].hex}}{% else %}{{flavor.colors.lavender.hex}}{% endif %}"
+file_panel_item_selected_bg = "#{{flavor.colors.base.hex}}"
+sidebar_title = "#{{flavor.colors.sky.hex}}"
+sidebar_item_selected_fg = "#{% if variant == 'accent' %}{{flavor.colors[accent].hex}}{% else %}{{flavor.colors.lavender.hex}}{% endif %}"
+sidebar_item_selected_bg = "#{{flavor.colors.base.hex}}"
+sidebar_divider = "#{{flavor.colors.overlay0.hex}}"
+modal_cancel_fg = "#{{flavor.colors.surface0.hex}}"
+modal_cancel_bg = "#{{flavor.colors.pink.hex}}"
+modal_confirm_fg = "#{{flavor.colors.surface0.hex}}"
+modal_confirm_bg = "#{{flavor.colors.sky.hex}}"
+help_menu_hotkey = "#{{flavor.colors.sky.hex}}"
+help_menu_title = "#{{flavor.colors.pink.hex}}"
