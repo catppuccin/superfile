@@ -4,17 +4,20 @@ whiskers:
   matrix:
     - flavor
     - accent
-  filename: "themes/catppuccin-{{flavor.identifier}}.toml"
+  filename: "themes/{{flavor.identifier}}/catppuccin-{{flavor.identifier}}-{{accent}}.toml"
 ---
-# Catppuccin {{flavor.name}}
+
+{%- set accent = flavor.colors[accent] -%}
+
+# Catppuccin {{flavor.name}} {{accent.name}}
 
 code_syntax_highlight = "catppuccin-{{flavor.identifier}}"
 
 file_panel_border = "#{{overlay0.hex}}"
 sidebar_border = "#{{base.hex}}"
 footer_border = "#{{overlay0.hex}}"
-file_panel_border_active = "#{{lavender.hex}}"
-sidebar_border_active = "#{{lavender.hex}}"
+file_panel_border_active = "#{{accent.hex}}"
+sidebar_border_active = "#{{accent.hex}}"
 footer_border_active = "#{{green.hex}}"
 modal_border_active = "#{{overlay0.hex}}"
 full_screen_bg = "#{{base.hex}}"
@@ -35,10 +38,10 @@ cancel = "#{{pink.hex}}"
 gradient_color = ["#{{blue.hex}}", "#{{mauve.hex}}"]
 file_panel_top_directory_icon = "#{{green.hex}}"
 file_panel_top_path = "#{{blue.hex}}"
-file_panel_item_selected_fg = "#{{lavender.hex}}"
+file_panel_item_selected_fg = "#{{accent.hex}}"
 file_panel_item_selected_bg = "#{{base.hex}}"
 sidebar_title = "#{{sky.hex}}"
-sidebar_item_selected_fg = "#{{lavender.hex}}"
+sidebar_item_selected_fg = "#{{accent.hex}}"
 sidebar_item_selected_bg = "#{{base.hex}}"
 sidebar_divider = "#{{overlay0.hex}}"
 modal_cancel_fg = "#{{surface0.hex}}"
