@@ -36,14 +36,19 @@
 
 ## Usage
 
+> [!Important]
+> All four flavours of Catppuccin are already included by default and this repository simply provides easy to copy accent variations.
+
 1. Create a theme folder in superfile's [configuration directory](https://superfile.netlify.app/configure/config-file-path/#config).
 
-1. Download your preferred flavour from the [themes](./themes/) directory, and save it to superfile's theme directory.
+1. Choose your preferred flavour from the [themes](./themes/) directory.
+
+1. Choose the accent you want from within the flavor directory, and save it to superfile's theme directory.
 
 1. Edit your configuration file, located at `spf pl` (see the configuration directory path, usually `~/.config/superfile/config.toml`):
 
 ```toml
-theme="catppuccin-<flavour>"
+theme="catppuccin-<flavour>-<accent>"
 ```
 
 ## 💝 Thanks to
