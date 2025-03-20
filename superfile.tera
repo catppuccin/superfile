@@ -36,7 +36,7 @@ error = "#{{red.hex}}"
 hint = "#{{sky.hex}}"
 cancel = "#{{pink.hex}}"
 gradient_color = ["#{{blue.hex}}", "#{{mauve.hex}}"]
-directory_icon_color = "#{% if flavor == "latte" %}{{text.hex}}{% else %}{{surface0.hex}}{% endif %}"
+directory_icon_color = "#{{blue.hex}}"
 file_panel_top_directory_icon = "#{{green.hex}}"
 file_panel_top_path = "#{{blue.hex}}"
 file_panel_item_selected_fg = "#{{accent.hex}}"
