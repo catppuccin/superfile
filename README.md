@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/MuntasirSZN/superfile/stargazers"><img src="https://img.shields.io/github/stars/MuntasirSZN/superfile?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/MuntasirSZN/superfile/issues"><img src="https://img.shields.io/github/issues/MuntasirSZN/superfile?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/MuntasirSZN/superfile/contributors"><img src="https://img.shields.io/github/contributors/MuntasirSZN/superfile?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/superfile/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/superfile?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/superfile/issues"><img src="https://img.shields.io/github/issues/catppuccin/superfile?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/superfile/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/superfile?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
