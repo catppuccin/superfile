@@ -9,45 +9,79 @@ whiskers:
 
 {%- set accent = flavor.colors[accent] -%}
 
-# Catppuccin {{flavor.name}} {{accent.name}}
+##############################################
+#                                            #
+#              Catppuccin Theme              #
+#                                            #
+##############################################
 
+# Catppuccin {{flavor.name}} {{accent.name}}
+# This theme was created by: Catppuccin Org! Thank you <3
+
+# This contains the theme config file for superfile! For more details see:
+# https://superfile.dev/configure/custom-theme/
+
+###############################################################################
+#                           Code Syntax Highlighting                          #
+###############################################################################
+
+# Find one you like at: https://github.com/alecthomas/chroma/blob/master/styles.
 code_syntax_highlight = "catppuccin-{{flavor.identifier}}"
 
-file_panel_border = "#{{overlay0.hex}}"
-sidebar_border = "#{{base.hex}}"
-footer_border = "#{{overlay0.hex}}"
-file_panel_border_active = "#{{accent.hex}}"
-sidebar_border_active = "#{{accent.hex}}"
-footer_border_active = "#{{accent.hex}}"
-modal_border_active = "#{{overlay0.hex}}"
-full_screen_bg = "#{{base.hex}}"
-file_panel_bg = "#{{base.hex}}"
-sidebar_bg = "#{{base.hex}}"
-footer_bg = "#{{base.hex}}"
-modal_bg = "#{{base.hex}}"
+###############################################################################
+#                                 Base Colors                                 #
+###############################################################################
+
+#-- Full Screen
 full_screen_fg = "#{{subtext0.hex}}"
+full_screen_bg = "#{{base.hex}}"
+
+#-- Gradient
+# Note: This currently only supports two colors.
+gradient_color = ["#{{blue.hex}}", "#{{mauve.hex}}"]
+
+#-- File Panel
 file_panel_fg = "#{{subtext0.hex}}"
-sidebar_fg = "#{{subtext0.hex}}"
+file_panel_bg = "#{{base.hex}}"
+file_panel_border = "#{{overlay0.hex}}"
+file_panel_border_active = "#{{accent.hex}}"
+file_panel_top_directory_icon = "#{{green.hex}}"
+file_panel_top_path = "#{{blue.hex}}"
+file_panel_item_selected_fg = "#{{accent.hex}}"
+file_panel_item_selected_bg = "#{{base.hex}}"
+
+#-- Footer
 footer_fg = "#{{subtext0.hex}}"
+footer_bg = "#{{base.hex}}"
+footer_border = "#{{overlay0.hex}}"
+footer_border_active = "#{{accent.hex}}"
+
+#-- Sidebar
+sidebar_fg = "#{{subtext0.hex}}"
+sidebar_bg = "#{{base.hex}}"
+sidebar_title = "#{{sky.hex}}"
+sidebar_border = "#{{base.hex}}"
+sidebar_border_active = "#{{accent.hex}}"
+sidebar_item_selected_fg = "#{{accent.hex}}"
+sidebar_item_selected_bg = "#{{base.hex}}"
+sidebar_divider = "#{{overlay0.hex}}"
+
+#-- Modals
 modal_fg = "#{{subtext0.hex}}"
+modal_bg = "#{{base.hex}}"
+modal_border_active = "#{{overlay0.hex}}"
+modal_cancel_fg = "#{{surface0.hex}}"
+modal_cancel_bg = "#{{pink.hex}}"
+modal_confirm_fg = "#{{surface0.hex}}"
+modal_confirm_bg = "#{{sky.hex}}"
+
+#-- Help Menu
+help_menu_hotkey = "#{{sky.hex}}"
+help_menu_title = "#{{pink.hex}}"
+
+#-- Special
 cursor = "#{{rosewater.hex}}"
 correct = "#{{green.hex}}"
 error = "#{{red.hex}}"
 hint = "#{{sky.hex}}"
 cancel = "#{{pink.hex}}"
-gradient_color = ["#{{blue.hex}}", "#{{mauve.hex}}"]
-directory_icon_color = "#{{blue.hex}}"
-file_panel_top_directory_icon = "#{{green.hex}}"
-file_panel_top_path = "#{{blue.hex}}"
-file_panel_item_selected_fg = "#{{accent.hex}}"
-file_panel_item_selected_bg = "#{{base.hex}}"
-sidebar_title = "#{{sky.hex}}"
-sidebar_item_selected_fg = "#{{accent.hex}}"
-sidebar_item_selected_bg = "#{{base.hex}}"
-sidebar_divider = "#{{overlay0.hex}}"
-modal_cancel_fg = "#{{surface0.hex}}"
-modal_cancel_bg = "#{{pink.hex}}"
-modal_confirm_fg = "#{{surface0.hex}}"
-modal_confirm_bg = "#{{sky.hex}}"
-help_menu_hotkey = "#{{sky.hex}}"
-help_menu_title = "#{{pink.hex}}"
